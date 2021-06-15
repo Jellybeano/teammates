@@ -1,3 +1,4 @@
+console.log("script works!");
 document.getElementById("myButton").addEventListener("click", myFunction);
 
 function myFunction(){
