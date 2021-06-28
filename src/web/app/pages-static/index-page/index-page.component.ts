@@ -41,6 +41,14 @@ export class IndexPageComponent implements OnInit {
 
     cycleTestimonial();
     setInterval(cycleTestimonial, 5000);
-  }
 
+    const myFunction:  () => void = (): void => {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+    }
+
+    myFunction();
+    setInterval(myFunction, 1000);
+
+  }
 }
